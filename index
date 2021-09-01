@@ -5,15 +5,17 @@
   </head>
   <body>
     <nav class="topnav">
+      <div></div>
       <a class="active" href="index">Home</a>
       <a href="explore">Explore</a>
       <a href="school">School</a>
       <a href="events">Events</a>
       <a href="location">Location</a>
     </nav>
-  <br></br>
-  <br></br>
-    <div class="flexbox-container">
+  <div 
+  class="banner" alt="Banner - Museum">
+  </div>
+      <div class="flexbox-container">
       <div class="flexbox-item flexbox-item-1">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minus neque incidunt dignissimos vitae. Officia ducimus maiores, cupiditate nulla sunt tempore ad eius repellat obcaecati accusamus quod aspernatur. Eum, impedit!</p>
       </div>

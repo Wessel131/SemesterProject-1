@@ -3,12 +3,17 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #333;
   overflow: hidden;
+  background-color: #76c3e1;
+}
+
+.topnav div {
+  padding-right: 40%;
+  background-color: #fb532c;
 }
 
 .topnav a {
-  justify-content: ;
+  justify-content: right;
   color: #f2f2f2;
   padding: 14px 16px;
   text-decoration: none;
@@ -21,9 +26,25 @@
 }
 
 .topnav a.active {
-  background-color: #04aa6d;
+  background-color: #0147b2;
   columns: white;
 }
+
+.banner {
+  display: flex;
+  background-image: url(https://raw.githubusercontent.com/Wessel131/SemesterProject-1/main/images/scott-webb-102825.jpg?token=AT33AN3EXLWPFMQIEMH6EMTBF5YVY);
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 500px;
+}
+
+/*
+.banner {
+  width: 100%;
+  overflow: hidden;
+  padding-top: -300px;
+  padding-bottom: -300px;
+}*/
 
 .flexbox-container {
   display: flex;
