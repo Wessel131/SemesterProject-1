@@ -12,9 +12,13 @@
       <a href="events">Events</a>
       <a href="location">Location</a>
     </nav>
+    <br></br>
+    <br></br>
   <div 
-  class="banner" alt="Banner - Museum">
+  class="banner">
+  <img class="banner-crop" src="images\scott-webb-102825.jpg" alt="Banner image Museum">
   </div>
+  <br></br>
       <div class="flexbox-container">
       <div class="flexbox-item flexbox-item-1">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minus neque incidunt dignissimos vitae. Officia ducimus maiores, cupiditate nulla sunt tempore ad eius repellat obcaecati accusamus quod aspernatur. Eum, impedit!</p>

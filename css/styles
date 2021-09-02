@@ -31,13 +31,37 @@
 }
 
 .banner {
-  display: flex;
-  background-image: url(https://raw.githubusercontent.com/Wessel131/SemesterProject-1/main/images/scott-webb-102825.jpg?token=AT33AN3EXLWPFMQIEMH6EMTBF5YVY);
-  background-repeat: no-repeat;
-  height: 1000px;
-  width: 500px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
 }
 
+.banner-crop {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*
+.banner {
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: none;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+}
+*/
+/*
+.banner-crop {
+  clip: rect(300px 0 500px 0);
+}
+*/
 /*
 .banner {
   width: 100%;
