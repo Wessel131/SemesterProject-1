@@ -1,55 +1,60 @@
 <!DOCTYPE html>
   <head>
     <link rel="stylesheet" href="css/styles" />
+    <link rel="stylesheet" href="fonts/">
     <title>Community Science Museum</title>
   </head>
   <body>
     <nav class="topnav">
-      <div></div>
+      <h1>Community Science Museum</h1>
       <a class="active" href="index">Home</a>
       <a href="explore">Explore</a>
       <a href="school">School</a>
       <a href="events">Events</a>
       <a href="location">Location</a>
+      <a>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <form class="search" action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form></a>
     </nav>
     <br></br>
-    <br></br>
-  <div 
-  class="banner">
-  <img class="banner-crop" src="images\scott-webb-102825.jpg" alt="Banner image Museum">
-  </div>
+    <div class="banner">
+      <img class="banner-img" src="images\scott-webb-102825.jpg" alt="Banner image Museum">
+    </div>
   <br></br>
       <div class="flexbox-container">
       <div class="flexbox-item flexbox-item-1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minus neque incidunt dignissimos vitae. Officia ducimus maiores, cupiditate nulla sunt tempore ad eius repellat obcaecati accusamus quod aspernatur. Eum, impedit!</p>
+        <p></p>
       </div>
       <div class="flexbox-item flexbox-item-2">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae recusandae, quos eligendi voluptas veritatis laboriosam totam vitae sed, rerum eius autem at assumenda esse nobis quisquam veniam deserunt aliquam? Quo?</p>
+        <p></p>
       </div>
       <div class="flexbox-item flexbox-item-3">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eaque expedita adipisci amet voluptate impedit dolor corrupti distinctio vero! Iusto officia cupiditate quo inventore ex quasi voluptatem pariatur totam eaque!</p>
+        <p></p>
       </div>
   </div>
   <div class="flexbox-container-1">
       <div class="flexbox-item flexbox-item-4">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minus neque incidunt dignissimos vitae. Officia ducimus maiores, cupiditate nulla sunt tempore ad eius repellat obcaecati accusamus quod aspernatur. Eum, impedit!</p>
+        <p></p>
       </div>
       <div class="flexbox-item flexbox-item-5">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae recusandae, quos eligendi voluptas veritatis laboriosam totam vitae sed, rerum eius autem at assumenda esse nobis quisquam veniam deserunt aliquam? Quo?</p>
+        <p></p>
       </div>
       <div class="flexbox-item flexbox-item-6">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eaque expedita adipisci amet voluptate impedit dolor corrupti distinctio vero! Iusto officia cupiditate quo inventore ex quasi voluptatem pariatur totam eaque!</p>
+        <p></p>
       </div>
   </div>
   <div class="flexbox-container-2">
       <div class="flexbox-item flexbox-item-7">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minus neque incidunt dignissimos vitae. Officia ducimus maiores, cupiditate nulla sunt tempore ad eius repellat obcaecati accusamus quod aspernatur. Eum, impedit!</p>
+        <p></p>
       </div>
       <div class="flexbox-item flexbox-item-8">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae recusandae, quos eligendi voluptas veritatis laboriosam totam vitae sed, rerum eius autem at assumenda esse nobis quisquam veniam deserunt aliquam? Quo?</p>
+        <p></p>
       </div>
       <div class="flexbox-item flexbox-item-9">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eaque expedita adipisci amet voluptate impedit dolor corrupti distinctio vero! Iusto officia cupiditate quo inventore ex quasi voluptatem pariatur totam eaque!</p>
+        <p></p>
       </div>
     </div>
     <script>
