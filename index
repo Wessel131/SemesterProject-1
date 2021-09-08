@@ -25,14 +25,14 @@
     </div>
   <br></br>
       <div class="flexbox-container">
-      <div class="flexbox-item flexbox-item-1">
-        <p></p>
+      <div class="flexbox-item">
+        <img class="block-1" src="images/billetto-editorial-334686.jpg" alt="School offer">
+        <p>We offer a variety of playgrounds, movies and lectures with interactive models all directed towards children, schools and universities. Our quest is to educate through visual aid, like models and projectors, alongside an in-depth take on many of today's most fascinating science.
+        </p>
       </div>
-      <div class="flexbox-item flexbox-item-2">
-        <p></p>
-      </div>
-      <div class="flexbox-item flexbox-item-3">
-        <p></p>
+      <div class="flexbox-item">
+        <img class="block-1" src="images/lab-512503_1920.jpg" alt="Lab picture">
+        <p>We offer a variety of playgrounds, movies and lectures with interactive models all directed towards children, schools and universities. Our quest is to educate through visual aid, like models and projectors, alongside an in-depth take on many of today's most fascinating science.</p>
       </div>
   </div>
   <div class="flexbox-container-1">
