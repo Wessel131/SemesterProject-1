@@ -1,6 +1,10 @@
 * {
   font-family: "Poppins", sans-serif;
-  text-decoration: none;
+  image-rendering: optimizeSpeed;
+}
+
+body {
+  background-color: rgb(8, 63, 85);
 }
 
 .topnav {
@@ -9,25 +13,27 @@
   position: fixed;
   z-index: 1000;
   top: 0;
-  width: 95%;
+  width: 100%;
+  height: 9%;
   overflow: hidden;
   background: rgb(251, 83, 44);
   background: linear-gradient(
     90deg,
-    rgba(251, 83, 44, 1) 0%,
-    rgba(118, 195, 225, 1) 62%,
-    rgba(118, 195, 225, 1) 100%
+    rgb(44, 220, 251) 0%,
+    rgb(8, 63, 85) 42%,
+    rgb(0, 13, 19) 70%
   );
 }
 
 .topnav h1 {
   top: 0;
   margin: 14px 16px;
+  padding-right: 30%;
 }
 
 .topnav a {
   display: flex;
-  flex-grow: ;
+  flex-grow: 1;
   color: #f2f2f2;
   padding: 14px 16px;
   text-decoration: none;
@@ -44,7 +50,6 @@
   columns: white;
 }
 
-/* Style the search field */
 form.search input[type="text"] {
   box-sizing: border-box;
   padding: 14px 16px;
@@ -55,7 +60,6 @@ form.search input[type="text"] {
   background: #f1f1f1;
 }
 
-/* Style the submit button */
 form.search button {
   box-sizing: border-box;
   float: left;
@@ -65,7 +69,7 @@ form.search button {
   color: white;
   font-size: 17px;
   border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
+  border-left: none;
   cursor: pointer;
 }
 
@@ -73,7 +77,6 @@ form.search button:hover {
   background: #0b7dda;
 }
 
-/* Clear floats */
 form.search::after {
   content: "";
   clear: both;
@@ -82,27 +85,21 @@ form.search::after {
 
 .banner {
   display: flex;
-  position: relative;
   z-index: -1000;
   width: 100%;
-  height: 800px;
+  height: 80vh;
   overflow: hidden;
 }
 
-.banner-img {
-  position: absolute;
-  left: 46%;
-  top: 50%;
-  height: auto;
+.banner img {
+  display: flex;
+  object-fit: cover;
   width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 .flexbox-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   text-align: center;
   justify-content: center;
 }
@@ -112,7 +109,45 @@ form.search::after {
   margin: 10px;
   padding: 5px;
   border: none;
-  background-color: #dfdfdf;
+  background-color: rgb(9, 76, 102);
+}
+
+.flexbox-container p {
+  display: flex;
+  align-self: flex-end;
+}
+
+.bobble-kort {
+  display: flex;
+  width: min-content;
+  height: min-content;
+  background-color: rgb(8, 63, 85);
+}
+
+.bobble-lang {
+  display: flex;
+  width: min-content;
+  height: 58vh;
+  object-fit: cover;
+  background-color: rgb(8, 63, 85);
+  overflow: hidden;
+}
+
+#infotxt {
+  margin: 2px;
+  padding: 2px;
+}
+
+#infotxt h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: black;
 }
 
 .block-1 {
@@ -121,10 +156,72 @@ form.search::after {
   align-items: center;
 }
 
-.block-1 {
+.block-2 {
   height: auto;
-  width: 624px;
+  width: 400px;
   align-items: center;
+  object-fit: cover;
+}
+
+.flexbox-sm {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  overflow: hidden;
+  background-color: rgb(9, 76, 102);
+}
+
+.socialmedia {
+  display: flex;
+  list-style: none;
+}
+.socialmedia h3 {
+  display: inherit;
+  order: 1;
+  text-decoration: solid black;
+  font-size: 24px;
+  width: 105vh;
+  height: auto;
+  padding-left: 5vh;
+}
+
+.socialmedia ul {
+  display: inherit;
+  order: 2;
+  width: 70vh;
+  justify-content: space-evenly;
+}
+.socialmedia img {
+  display: inherit;
+  height: 50px;
+  width: auto;
+}
+.contact {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 210vh;
+}
+
+.contact div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact ul {
+  display: inherit;
+}
+
+.contact li {
+  display: inherit;
+  list-style: none;
+  padding-top: 2vh;
+}
+
+.contact h2 {
+  display: inherit;
+  justify-content: space-between;
+  width: 100vh;
 }
 
 /*
