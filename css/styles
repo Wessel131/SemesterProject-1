@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(8, 63, 85);
+  color: black;
 }
 
 .topnav {
@@ -147,7 +148,6 @@ h6 {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  color: black;
 }
 
 .block-1 {
@@ -178,17 +178,18 @@ h6 {
 .socialmedia h3 {
   display: inherit;
   order: 1;
-  text-decoration: solid black;
+  text-decoration: solid;
   font-size: 24px;
-  width: 105vh;
+  width: 90vh;
   height: auto;
+  margin-top: 3vh;
   padding-left: 5vh;
 }
 
 .socialmedia ul {
   display: inherit;
   order: 2;
-  width: 70vh;
+  width: 100vh;
   justify-content: space-evenly;
 }
 .socialmedia img {
@@ -201,6 +202,7 @@ h6 {
   flex-flow: row;
   justify-content: space-between;
   width: 210vh;
+  color: #f2a127;
 }
 
 .contact div {
@@ -222,6 +224,7 @@ h6 {
   display: inherit;
   justify-content: space-between;
   width: 100vh;
+  padding-top: 3vh;
 }
 
 /*

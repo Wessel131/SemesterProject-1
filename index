@@ -7,7 +7,7 @@
   <body>
     <nav class="topnav">
       <h1>Community Science Museum</h1>
-      <a class="active" href="index">Home</a>
+      <a href="index">Home</a>
       <a href="explore">Explore</a>
       <a href="school">School</a>
       <a href="events">Events</a>
