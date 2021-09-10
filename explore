@@ -7,7 +7,7 @@
   <body>
     <nav class="topnav">
       <h1>Community Science Museum</h1>
-      <a class="active" href="index">Home</a>
+      <a href="index">Home</a>
       <a href="explore">Explore</a>
       <a href="school">School</a>
       <a href="events">Events</a>
@@ -20,28 +20,28 @@
       </form></a>
     </nav>
     <br></br>
-    <div class="banner">
-      <img src="images\banner2.jpg" alt="Banner image Museum">
+    <div class="explore">
+      <img src="" alt="">
     </div>
     <div class="flexbox-container">
-      <img class=bobble-kort src="images/SocialMedia/bobler-kort.png" alt="dekor, korte bobler">
+      <img class="bobble-kort" src="images/SocialMedia/bobler-kort.png" alt="dekor, korte bobler">
       <div class="">
-        <div id="infotxt">
-          <h2>Discover</h2>
-          <h3>an opportunity for learning</h3>
+        <div id="">
+          <h2></h2>
+          <h3></h3>
         </div>
-        <img class="block-1" src="images/billetto-editorial-334686.jpg" alt="School offer">
-        <p>We offer a variety of playgrounds, movies and lectures with interactive models all directed towards children, schools and universities. Our quest is to educate through visual aid, like models and projectors, alongside an in-depth take on many of today's most fascinating science.
+        <img class="" src="" alt="">
+        <p>
         </p>
       </div>
       <div>
-        <div id="infotxt">
-          <h2>Learn</h2>
-          <h3>and experiment at our lab!</h3>
+        <div id="">
+          <h2></h2>
+          <h3></h3>
         </div>
-        <img class="block-2" src="images/lab.jpg" alt="Lab picture">
+        <img class="" src="" alt="">
         <p>
-          Here you can attend classes that offer real life experience with the periodic table. We create reactions and learn about why things react together. This is an offer to all visiting students (age 12+).
+          
         </p>
       </div>
       <img class="bobble-lang" src="images/SocialMedia/bobler-lang.png" alt="dekor, lange bobler">

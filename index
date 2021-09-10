@@ -21,25 +21,25 @@
     </nav>
     <br></br>
     <div class="banner">
-      <img src="images\banner2.jpg" alt="Banner image Museum">
+      <img src="images/index/banner2.jpg" alt="Banner image Museum">
     </div>
     <div class="flexbox-container">
       <img class=bobble-kort style="order: 1;" src="images/SocialMedia/bobler-kort.png" alt="dekor, korte bobler">
-      <div style="order: 3;">
+      <div style="order: 2;">
         <div id="infotxt">
           <h2>Discover</h2>
           <h3>an opportunity for learning</h3>
         </div>
-        <img class="block-1" src="images/billetto-editorial-334686.jpg" alt="School offer">
+        <img class="block-1" src="images/index/billetto-editorial-334686.jpg" alt="School offer">
         <p>We offer a variety of playgrounds, movies and lectures with interactive models all directed towards children, schools and universities. Our quest is to educate through visual aid, like models and projectors, alongside an in-depth take on many of today's most fascinating science.
         </p>
       </div>
-      <div style="order: 2;">
+      <div style="order: 3;">
         <div id="infotxt">
           <h2>Learn</h2>
           <h3>and experiment at our lab!</h3>
         </div>
-        <img class="block-2" src="images/lab.jpg" alt="Lab picture">
+        <img class="block-2" src="images/index/lab.jpg" alt="Lab picture">
         <p>
           Here you can attend classes that offer real life experience with the periodic table. We create reactions and learn about why things react together. This is an offer to all visiting students (age 12+).
         </p>

@@ -244,11 +244,24 @@ h6 {
   overflow: hidden;
 }
 .location ul {
+  display: inherit;
+  flex-direction: column;
   align-self: center;
   border: black solid 2px;
   padding: 20px;
   order: 1;
-  margin-right: 34vh;
+  margin-right: 9vh;
+}
+.location li {
+  display: inherit;
+}
+.location img {
+  display: inherit;
+  image-rendering: auto;
+  image-resolution: 480dpi;
+  margin-top: 10px;
+  width: 50vh;
+  height: auto;
 }
 .map-h1 {
   display: flex;
@@ -265,4 +278,13 @@ h6 {
   padding-top: 2vh;
   padding-bottom: 5vh;
   color: black;
+}
+
+.explore {
+  display: flex;
+  image-rendering: auto;
+}
+
+.explore img {
+  display: inherit;
 }
