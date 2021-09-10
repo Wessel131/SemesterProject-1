@@ -19,33 +19,23 @@
         <button type="submit"><i class="fa fa-search"></i></button>
       </form></a>
     </nav>
+<!--
     <br></br>
-    <div class="explore">
+    <div class="">
       <img src="" alt="">
     </div>
-    <div class="flexbox-container">
+-->
+    <div class="explore">
       <img class="bobble-kort" src="images/SocialMedia/bobler-kort.png" alt="dekor, korte bobler">
-      <div class="">
-        <div id="">
-          <h2></h2>
-          <h3></h3>
-        </div>
-        <img class="" src="" alt="">
-        <p>
-        </p>
-      </div>
       <div>
-        <div id="">
-          <h2></h2>
-          <h3></h3>
-        </div>
-        <img class="" src="" alt="">
-        <p>
-          
-        </p>
+        <img class="block-1" src="images/explore/planets.jpg" alt="space planets">
+        <img class="block-1" src="images/explore/scientific-2040795_1280.jpg" alt="Si-Fi">
       </div>
       <img class="bobble-lang" src="images/SocialMedia/bobler-lang.png" alt="dekor, lange bobler">
+      <!--<p>Discover our planatorium and try a guided VR experience through deep space. We will tell you about black holes, white dwarfs and gravitational waves! 
+      </p>-->
     </div>
+<!---->
     <div class="flexbox-sm">
       <li class="socialmedia">
         <h3>Follow us on social media:</h3>
