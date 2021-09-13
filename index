@@ -32,7 +32,7 @@
           </p>
         </div>
         <div class="tag2">
-          <h2>Learn and experiment at our lab!</h2>
+          <h2>Learn and experiment at our lab</h2>
           <img class="block-2" src="images/index/lab.jpg" alt="Lab picture">
           <p>
           Here you can attend classes that offer real life experience with the periodic table. We create reactions and learn about why things react together. This is an offer to all visiting students (age 12+).
@@ -64,10 +64,11 @@
     </div>
     <div class="contact">
       <ul>
-        <h2>Contact info</h2>
         <div>
           <li>E-mail: CSM@SCIENCE.COM</li>
           <li>Phone: +47 123 45 678</li>
+        </div>
+        <p>© 2021 Community Science Museum. All Rights Reserved.</p>
       </ul>
     </div>
     </div>

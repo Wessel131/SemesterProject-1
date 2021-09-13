@@ -70,10 +70,11 @@
     </div>
     <div class="contact">
       <ul>
-        <h2>Contact info</h2>
         <div>
           <li>E-mail: CSM@SCIENCE.COM</li>
           <li>Phone: +47 123 45 678</li>
+        </div>
+        <p>© 2021 Community Science Museum. All Rights Reserved.</p>
       </ul>
     </div>
     </div>

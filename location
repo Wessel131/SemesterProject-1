@@ -6,7 +6,7 @@
   </head>
   <body>
     <nav class="topnav">
-      <h1>Community Science Museum</h1>
+      <h1 style="text-decoration: none;">Community Science Museum</h1>
       <a href="index">Home</a>
       <a href="explore">Explore</a>
       <a href="school">School</a>
@@ -61,10 +61,11 @@
     </div>
     <div class="contact">
       <ul>
-        <h2>Contact info</h2>
         <div>
           <li>E-mail: CSM@SCIENCE.COM</li>
           <li>Phone: +47 123 45 678</li>
+        </div>
+        <p>© 2021 Community Science Museum. All Rights Reserved.</p>
       </ul>
     </div>
     </div>
