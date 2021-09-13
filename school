@@ -7,7 +7,7 @@
   <body>
     <nav class="topnav">
       <h1>Community Science Museum</h1>
-      <a class="active" href="index">Home</a>
+      <a href="index">Home</a>
       <a href="explore">Explore</a>
       <a href="school">School</a>
       <a href="events">Events</a>
@@ -20,41 +20,44 @@
       </form></a>
     </nav>
     <br></br>
-    <div class="banner">
-      <img src="images\banner2.jpg" alt="Banner image Museum">
+    <div class="midrolladd">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id rerum dolores atque quo recusandae laboriosam cupiditate, nulla repellendus. Ab ad rerum facere? Ipsam iure quidem ab blanditiis quaerat sed laboriosam!</p>
+      <img class="" src="images/explore/childmath.jpg" alt="mid roll add">
     </div>
     <div class="flexbox-container">
-      <img class=bobble-kort src="images/SocialMedia/bobler-kort.png" alt="dekor, korte bobler">
-      <div class="">
-        <div id="infotxt">
-          <h2>Discover</h2>
-          <h3>an opportunity for learning</h3>
+        <img class="bobble-kort" src="images/SocialMedia/bobler-kort.png" alt="dekor, kort bobler"><!--
+        <div class="">
+          <h2></h2>
+          <img class="" src="" alt="">
+          <p>
+          </p>
         </div>
-        <img class="block-1" src="images/billetto-editorial-334686.jpg" alt="School offer">
-        <p>We offer a variety of playgrounds, movies and lectures with interactive models all directed towards children, schools and universities. Our quest is to educate through visual aid, like models and projectors, alongside an in-depth take on many of today's most fascinating science.
-        </p>
-      </div>
-      <div>
-        <div id="infotxt">
-          <h2>Learn</h2>
-          <h3>and experiment at our lab!</h3>
-        </div>
-        <img class="block-2" src="images/lab.jpg" alt="Lab picture">
-        <p>
-          Here you can attend classes that offer real life experience with the periodic table. We create reactions and learn about why things react together. This is an offer to all visiting students (age 12+).
-        </p>
-      </div>
+        <div class="">
+          <h2></h2>
+          <img class="" src="" alt="">
+          <p></p>
+        </div>-->
       <img class="bobble-lang" src="images/SocialMedia/bobler-lang.png" alt="dekor, lange bobler">
     </div>
     <div class="flexbox-sm">
       <li class="socialmedia">
         <h3>Follow us on social media:</h3>
         <ul>
-          <img src="images/SocialMedia/twitter.png" alt="Twitter">
-          <img src="images/SocialMedia/facebook.png" alt="Facebook">
-          <img src="images/SocialMedia/instagram.png" alt="Instagram">
-          <img src="images/SocialMedia/youtube.png" alt="Youtube">
-          <img src="images/SocialMedia/location.png" alt="Location">
+          <a href="https://twitter.com/">
+            <img src="images/SocialMedia/twitter.png" alt="Twitter">
+          </a>
+          <a href="https://facebook.com/">
+            <img src="images/SocialMedia/facebook.png" alt="Facebook">
+          </a>
+          <a href="https://instagram.com/">  
+            <img src="images/SocialMedia/instagram.png" alt="Instagram">
+          </a>
+          <a href="https://youtube.com/">  
+            <img src="images/SocialMedia/youtube.png" alt="Youtube">
+          </a>
+          <a href="location">  
+            <img src="images/SocialMedia/location.png" alt="Location">
+          </a>
         </ul>
       </li>
     </div>

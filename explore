@@ -19,32 +19,40 @@
         <button type="submit"><i class="fa fa-search"></i></button>
       </form></a>
     </nav>
-<!--
-    <br></br>
-    <div class="">
-      <img src="" alt="">
-    </div>
--->
     <div class="explore">
-      <img class="bobble-kort" src="images/SocialMedia/bobler-kort.png" alt="dekor, korte bobler">
-      <div>
+      <img class="bobble-kort" src="images/SocialMedia/bobler-kort.png" alt="dekor, korte bobler" style="order: 1; display: flex;">
+      <div style="order: 2;">
         <img class="block-1" src="images/explore/planets.jpg" alt="space planets">
-        <img class="block-1" src="images/explore/scientific-2040795_1280.jpg" alt="Si-Fi">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor vero minima rem, provident aliquam magni cum vitae facere enim saepe placeat nostrum fugit neque accusamus aliquid eum modi sapiente cupiditate!
+        </p>
       </div>
-      <img class="bobble-lang" src="images/SocialMedia/bobler-lang.png" alt="dekor, lange bobler">
-      <!--<p>Discover our planatorium and try a guided VR experience through deep space. We will tell you about black holes, white dwarfs and gravitational waves! 
-      </p>-->
+      <div style="order: 3;">
+        <img class="block-1" src="images/explore/scientific-2040795_1280.jpg" alt="Si-Fi">
+        <p>Discover our planatorium and try a guided VR experience through deep space. We will tell you about black holes, white dwarfs and gravitational waves! 
+        </p>
+      </div>
+      <img class="bobble-lang" src="images/SocialMedia/bobler-lang.png" alt="dekor, lange bobler" style="order: 4;">
     </div>
-<!---->
     <div class="flexbox-sm">
       <li class="socialmedia">
         <h3>Follow us on social media:</h3>
         <ul>
-          <img src="images/SocialMedia/twitter.png" alt="Twitter">
-          <img src="images/SocialMedia/facebook.png" alt="Facebook">
-          <img src="images/SocialMedia/instagram.png" alt="Instagram">
-          <img src="images/SocialMedia/youtube.png" alt="Youtube">
-          <img src="images/SocialMedia/location.png" alt="Location">
+          <a href="https://twitter.com/">
+            <img src="images/SocialMedia/twitter.png" alt="Twitter">
+          </a>
+          <a href="https://facebook.com/">
+            <img src="images/SocialMedia/facebook.png" alt="Facebook">
+          </a>
+          <a href="https://instagram.com/">  
+            <img src="images/SocialMedia/instagram.png" alt="Instagram">
+          </a>
+          <a href="https://youtube.com/">  
+            <img src="images/SocialMedia/youtube.png" alt="Youtube">
+          </a>
+          <a href="location">  
+            <img src="images/SocialMedia/location.png" alt="Location">
+          </a>
         </ul>
       </li>
     </div>
@@ -55,7 +63,6 @@
           <li>E-mail: CSM@SCIENCE.COM</li>
           <li>Phone: +47 123 45 678</li>
       </ul>
-    </div>
     </div>
     <script>
       document.write(

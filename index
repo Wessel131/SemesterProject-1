@@ -44,11 +44,21 @@
       <li class="socialmedia">
         <h3>Follow us on social media:</h3>
         <ul>
-          <img src="images/SocialMedia/twitter.png" alt="Twitter">
-          <img src="images/SocialMedia/facebook.png" alt="Facebook">
-          <img src="images/SocialMedia/instagram.png" alt="Instagram">
-          <img src="images/SocialMedia/youtube.png" alt="Youtube">
-          <img src="images/SocialMedia/location.png" alt="Location">
+          <a href="https://twitter.com/">
+            <img src="images/SocialMedia/twitter.png" alt="Twitter">
+          </a>
+          <a href="https://facebook.com/">
+            <img src="images/SocialMedia/facebook.png" alt="Facebook">
+          </a>
+          <a href="https://instagram.com/">  
+            <img src="images/SocialMedia/instagram.png" alt="Instagram">
+          </a>
+          <a href="https://youtube.com/">  
+            <img src="images/SocialMedia/youtube.png" alt="Youtube">
+          </a>
+          <a href="location">  
+            <img src="images/SocialMedia/location.png" alt="Location">
+          </a>
         </ul>
       </li>
     </div>
