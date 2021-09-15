@@ -6,11 +6,11 @@
   </head>
   <body>
     <nav class="topnav">
+      <img src="images/logo-star.png" alt="logo">
       <h1>Community Science Museum</h1>
       <a href="index">Home</a>
       <a href="explore">Explore</a>
       <a href="school">School</a>
-      <a href="events">Events</a>
       <a href="location">Location</a>
       <a>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

@@ -6,11 +6,11 @@
   </head>
   <body>
     <nav class="topnav">
+      <img src="images/logo-star.png" alt="logo">
       <h1>Community Science Museum</h1>
       <a href="index">Home</a>
       <a href="explore">Explore</a>
       <a href="school">School</a>
-      <a href="events">Events</a>
       <a href="location">Location</a>
       <a>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,21 +19,39 @@
         <button type="submit"><i class="fa fa-search"></i></button>
       </form></a>
     </nav>
-    <div class="explore">
+    <div class="explore" style="background: #799EA5;">
       <img class="bobble-kort" src="images/SocialMedia/bobler-kort.png" alt="dekor, korte bobler" style="order: 1; display: flex;">
       <div style="order: 2;">
-        <img class="block-1" src="images/explore/planets.jpg" alt="space planets">
+        <img class="block" src="images/explore/planets.jpg" alt="space planets">
         <p>
-          Discover our planatorium and try a guided VR experience through deep space. We will tell you about black holes, white dwarfs and gravitational waves! 
+          Discover our planatorium and try a guided experience through deep space. We will tell you about black holes, white dwarfs and gravitational waves! 
         </p>
       </div>
       <div style="order: 3;">
-        <img class="block-1" src="images/explore/scientific-2040795_1280.jpg" alt="Si-Fi">
+        <img class="block" src="images/explore/scientific-2040795_1280.jpg" alt="Si-Fi">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo excepturi, laborum sapiente sunt dolor nobis minus molestiae minima architecto quisquam! Enim exercitationem.
         </p>
       </div>
       <img class="bobble-lang" src="images/SocialMedia/bobler-lang.png" alt="dekor, lange bobler" style="order: 4;">
+    </div>
+    <div class="explore">
+      <img class="bobble-lang" src="images/SocialMedia/bobler-lang.png" alt="dekor, lange bobler" style="order: 4; display: flex;">
+      <div style="order: 2;">
+        <h3></h3>
+        <img class="block" src="images/explore/vr.jpg" alt="viritual reality">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sequi enim dolorum rerum saepe cumque architecto, possimus magnam hic nobis, vitae cupiditate fugit? Itaque neque pariatur quis, tempora sequi dolor? 
+        </p>
+      </div>
+      <div style="order: 3;">
+        <h3>Evolution</h3>
+        <img class="block" src="images/explore/mammoth.jpg" alt="mammoth picture">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel quaerat illo id atque, in enim accusamus omnis! Laboriosam sed assumenda nesciunt, reiciendis quasi corporis atque nostrum vitae libero consequuntur fugit.
+        </p>
+      </div>
+      <img class="bobble-kort" src="images/SocialMedia/bobler-kort.png" alt="dekor, korte bobler" style="order: 1;">
     </div>
     <div class="flexbox-sm">
       <li class="socialmedia">
