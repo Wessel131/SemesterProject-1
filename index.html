@@ -8,16 +8,24 @@
   </head>
   <body>
     <nav class="topnav">
-      <h1>Community Science Museum</h1>
-      <li><a id="menu12">Menu</a>
-        <ul class=dropdown>
+      <h1 style="order:1;">Community Science Museum</h1>
+      <li><a>Menu</a>
+        <ul id="menu12">
           <li><a href="index.html">Home</a></li>
           <li><a href="explore.html">Explore</a></li>
           <li><a href="school.html">School</a></li>
           <li><a href="location.html">Location</a></li>
         </ul>
       </li>
-      <a><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <li id="menu1">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="school.html">School</a></li>
+          <li><a href="location.html">Location</a></li>
+        </ul>
+      </li>
+      <a style="display: flex; order: 5;"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <form class="search" action="action_page.php">
         <input type="text" placeholder="Search.." name="search">
         <button type="submit"><i class="fa fa-search"></i></button>
