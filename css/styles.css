@@ -308,8 +308,8 @@ form.search::after {
 }
 .location div {
   display: flex;
-  justify-content: space-between;
-  font-size: 2.3vh;
+  font-size: 15px;
+  align-self: center;
 }
 .location h2 {
   display: flex;
@@ -322,11 +322,11 @@ form.search::after {
   flex-direction: column;
   border: black solid 2px;
   padding: 20px;
-  margin-right: 9vh;
-  margin-top: 7vh;
-  height: min-content;
   order: 1;
-  font-size: 2vh;
+  margin: 20px;
+  margin-top: 40px;
+  width: 420px;
+  height: 480px;
 }
 .location li {
   display: flex;
@@ -335,7 +335,7 @@ form.search::after {
   display: inherit;
   image-rendering: auto;
   margin-top: 10px;
-  width: 50vh;
+  width: 400px;
   height: auto;
 }
 
@@ -343,8 +343,8 @@ form.search::after {
   display: flex;
   padding-top: 2vh;
   overflow: hidden;
-  width: 37vw;
-  height: 27vw;
+  width: 600px;
+  height: 450px;
   align-self: center;
   flex-direction: column;
   font-size: 1.2vh;
@@ -363,10 +363,10 @@ I've created a box, width and height, so that the window does resize, but it's n
   display: flex;
   object-fit: cover;
   margin: 0;
+  margin-top: 50px;
   padding: 0;
-  height: 57vh;
-  width: 10%;
-  overflow: hidden;
+  height: auto;
+  width: 120px;
 }
 
 .explore {
@@ -388,11 +388,10 @@ I've created a box, width and height, so that the window does resize, but it's n
 
 .explore p {
   display: flex;
-  text-align: center;
-  align-items: center;
   margin: 0px;
   margin-top: 2vh;
-  width: 55vh;
+  width: 60vh;
+  align-self: center;
 }
 
 .midrolladd {
@@ -424,7 +423,7 @@ I've created a box, width and height, so that the window does resize, but it's n
 @media tag should go at the end of the .css. This is 'cause otherwise the @media tag rules will be overwritten by the "default" code.
 */
 
-@media screen and (max-width: 990px) {
+@media screen and (orientation: portrait) {
   .body {
     display: flex;
     flex-direction: column;
@@ -435,12 +434,35 @@ I've created a box, width and height, so that the window does resize, but it's n
     flex-direction: column;
     font-size: 30px;
   }
+  .explore {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .explore p {
+  }
   .bobble-kort {
     display: none;
-    overflow: hidden;
+    visibility: hidden;
   }
   .bobble-lang {
     display: none;
-    overflow: hidden;
+    visibility: hidden;
+  }
+  .location {
+    flex-direction: column-reverse;
+  }
+  #boble-location {
+    display: none;
+    visibility: none;
+  }
+  #googlelink {
+    width: 300px;
+    height: 225px;
+    align-self: start;
+    margin-left: 26vw;
+  }
+  .location-img {
+    height: auto;
+    width: 225px;
   }
 }
