@@ -11,42 +11,53 @@ body {
 
 .topnav {
   display: flex;
-  flex-direction: row;
   position: fixed;
   z-index: 10;
   top: 0;
   width: 100%;
-  height: 5vh;
+  height: 80px;
   overflow: hidden;
   background: linear-gradient(90deg, #2cdcfb 0%, #083f55 42%, #000d13 70%);
-}
-
-.topnav img {
-  display: flex;
-  object-fit: cover;
-  width: 8vh;
-  height: auto;
-  order: 1;
 }
 
 .topnav h1 {
   display: flex;
   margin: 12px 12px;
-  width: 60%;
-  order: 2;
+  flex-grow: 2;
+  order: 1;
   font-size: 2vw;
   align-self: center;
 }
 
+.topnav li {
+  display: flex;
+  order: 2;
+  color: white;
+}
+
+#menu12 {
+  order: 2;
+  display: none;
+}
+
+.topnav ul {
+  display: flex;
+  color: white;
+  order: 3;
+}
+
+.topnav li ul li {
+  display: flex;
+}
+
 .topnav a {
   display: flex;
-  flex-grow: 1;
-  order: 3;
   color: #f2f2f2;
   padding: 12px 12px;
   text-decoration: none;
   font-size: 2.5vh;
   align-self: center;
+  order: 4;
 }
 
 .topnav a:hover {
@@ -71,7 +82,6 @@ form.search input[type="text"] {
 }
 
 form.search button {
-  display: flex;
   box-sizing: border-box;
   float: left;
   width: 20%;
@@ -96,6 +106,21 @@ form.search::after {
   content: "";
   clear: both;
   display: table;
+}
+
+@media screen and (max-width: 650px) {
+  #menu12 {
+    display: block;
+    cursor: pointer;
+  }
+  .topnav ul {
+    flex-direction: column;
+    display: none;
+  }
+  #menu12:hover {
+    visibility: visible;
+    display: block;
+  }
 }
 
 .banner {
@@ -365,4 +390,29 @@ I've created a box, width and height, so that the window does resize, but it's n
   object-fit: none;
   order: 1;
   margin: 10px;
+}
+
+/*
+@media tag should go at the end of the .css. This is 'cause otherwise the @media tag rules will be overwritten by the "default" code.
+*/
+
+@media screen and (max-width: 990px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    font-size: 200px;
+  }
+  .flexbox-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+  }
+  .bobble-kort {
+    display: none;
+    overflow: hidden;
+  }
+  .bobble-lang {
+    display: none;
+    overflow: hidden;
+  }
 }
