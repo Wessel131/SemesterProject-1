@@ -8,6 +8,25 @@ body {
   color: black;
   list-style: none;
 }
+#generic_h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+  text-align: center;
+  border: #000d13 solid 2px;
+  width: 400px;
+  margin-top: 70px;
+}
+#generic_h {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+  text-align: center;
+  border: #000d13 solid 2px;
+  width: 400px;
+}
 
 .topnav {
   display: flex;
@@ -203,7 +222,7 @@ form.search::after {
   display: flex;
   padding: 3px;
   justify-content: center;
-  font-size: 1vw;
+  font-size: 17px;
   width: 60vh;
   align-self: center;
 }
@@ -375,7 +394,7 @@ I've created a box, width and height, so that the window does resize, but it's n
   justify-content: space-between;
   margin: 0px;
   padding: 0px;
-  margin-top: 3vh;
+  margin-top: 1vh;
   flex-direction: row;
 }
 .explore div {
@@ -414,6 +433,7 @@ I've created a box, width and height, so that the window does resize, but it's n
   display: flex;
   text-align: center;
   width: 90vh;
+  font-size: 17px;
 }
 
 #midaddpic {
@@ -427,6 +447,7 @@ I've created a box, width and height, so that the window does resize, but it's n
 .school {
   display: flex;
   flex-direction: row;
+  font-size: 17px;
 }
 .school img {
   display: flex;
