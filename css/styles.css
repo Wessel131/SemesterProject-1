@@ -454,6 +454,31 @@ I've created a box, width and height, so that the window does resize, but it's n
   flex-direction: column;
   object-fit: cover;
 }
+
+.contactForm {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 5px;
+  margin: 2px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 2px;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+}
+#newsletter {
+  display: flex;
+  flex-direction: row;
+}
+
 /*
 @media tag should go at the end of the .css. This is 'cause otherwise the @media tag rules will be overwritten by the "default" code.
 */

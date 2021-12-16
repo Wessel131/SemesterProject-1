@@ -57,6 +57,37 @@
             <h2 style="display: flex; justify-content: center;">Check us out</h2>
         </div>
         <img style="order: 3;" id="boble-location" src="images/SocialMedia/bobler-lang.png" alt="dekor, lange bobler">
+        <div class="contactForm"> 
+          <h3>Contact form</h3>
+          <form class="form" onsubmit="return false">
+            <input type="text" placeholder="Enter your last name" id="lastName" />
+            <br><br>
+            <div class="gender">
+              <input type="radio" id="male" name="gender" value="male"> Male
+              <input type="radio" id="female" name="gender" value="female"> Female
+            </div>
+            <br><br>
+            <input type="email" placeholder="Enter your email" id="email" />
+            <input type="text" placeholder="Address" id="address" />
+            <input type="text" placeholder="House number" id="houseNumber" />
+            <select id="country">
+              <option disabled selected value> -- select a country -- </option>
+              <option value="Narnia">Narnia</option>
+              <option value="Neverland">Neverland</option>
+              <option value="Vulcan">Vulcan</option>
+            </select>
+            <br><br>
+            <div>
+              <input type="checkbox" id="newsletter" />Send me monthly newsletter
+            </div>
+            <br><br>
+            <span>What is your question?</span>
+            <br>
+            <textarea id="question" rows="4"></textarea>
+            <br><br>
+            <button onclick="sendContact();">Send contact</button>
+          </form>
+        </div>
     </div>
     <div class="flexbox-sm">
       <li class="socialmedia">
@@ -98,5 +129,6 @@
           "script>"
       );
     </script>
+    <script src="/js/script.js" type="module"></script>
   </body>
 </html>
