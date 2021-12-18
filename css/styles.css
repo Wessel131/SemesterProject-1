@@ -1,6 +1,7 @@
 * {
   font-family: "Poppins", sans-serif;
   image-rendering: optimizeSpeed;
+  display: flexbox;
 }
 
 body {
@@ -206,6 +207,7 @@ form.search::after {
   display: flex;
   flex-direction: column;
   width: inherit;
+  align-items: center;
 }
 
 .flexbox-container h2 {
@@ -234,6 +236,7 @@ form.search::after {
   margin: 0px;
   padding: 0px;
   border: none;
+  order: 0;
 }
 .bobble-lang {
   display: flex;
@@ -242,6 +245,7 @@ form.search::after {
   margin: 0px;
   padding: 0px;
   border: none;
+  order: 5;
 }
 
 .block {
@@ -498,13 +502,12 @@ I've created a box, width and height, so that the window does resize, but it's n
     flex-direction: column;
     margin-top: 50px;
   }
-  .explore p {
-  }
-  .bobble-kort {
+
+  #bobble-kort {
     display: none;
     visibility: hidden;
   }
-  .bobble-lang {
+  #bobble-lang {
     display: none;
     visibility: hidden;
   }
@@ -527,6 +530,58 @@ I've created a box, width and height, so that the window does resize, but it's n
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  padding: 20px 40px;
+  font-family: sans-serif;
+  background: #ebebeb;
+} */
+
 .container {
   display: flex;
+  margin: 0;
+  margin-top: 15vh;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#contactForm {
+  padding: 2em;
+  background: white;
+  border-radius: 1rem;
+  align-self: center;
+  max-width: 760px;
+}
+
+input {
+  width: 100%;
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: rgb(11, 91, 133);
+  border: none;
+  width: 200px;
+  padding: 1rem;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
 }
