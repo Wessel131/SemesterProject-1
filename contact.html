@@ -1,134 +1,44 @@
 <!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="fonts/">
+    <link rel="stylesheet" href="fonts/" />
     <title>Community Science Museum</title>
     <!-- Hotjar Tracking Code for https://semester-project-1.netlify.app -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2720740,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-  </head>
-  <body>
-    <nav class="topnav">
-      <img src="images/logo-star.png" alt="logo">
-      <h1 style="order:1;">Community Science Museum</h1>
-      <li><a style="margin-right: 15px; cursor: pointer;">Menu</a>
-        <ul id="menu12">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="explore.html">Explore</a></li>
-          <li><a href="school.html">School</a></li>
-          <li><a href="location.html">Location</a></li>
-        </ul>
-      </li>
-      <li id="menu1">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="explore.html">Explore</a></li>
-          <li><a href="school.html">School</a></li>
-          <li><a href="location.html">Location</a></li>
-        </ul>
-      </li>
-      <a style="display: flex; order: 5;"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <form class="search" action="action_page.php">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form></a>
-    </nav>
-    <br></br>
-    <div class="flexbox-container" style="justify-content: center;">
-      <h1 id="generic_h1">Find us here</h1>
-    </div>
-    <div class="location">
-        <ul>Contact info:
-          <li>E-mail: csm@science.com</li>
-          <li>Phone: +47 123 45 678</li>
-          <img src="images/location/scott-webb-102825.jpg">
-        </ul>
-        <div style="flex-direction: column; order: 2;"><!--
-          <h2 style="justify-content: center;">Find us here:</h2>-->
-            <iframe id="googlelink" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89070.27583264893!2d-80.55664972214547!3d28.481881903361973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e0a4802dc1919f%3A0x98f792466f190cfd!2sSpaceX%20Landing%20Zones%201%20%26%202!5e0!3m2!1sno!2sno!4v1631191732834!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <h2 style="display: flex; justify-content: center;">Check us out</h2>
-        </div>
-        <img style="order: 3;" id="boble-location" src="images/SocialMedia/bobler-lang.png" alt="dekor, lange bobler">
-        <div class="contactForm"> 
-          <h3>Contact form</h3>
-          <form class="form" onsubmit="return false">
-            <input type="text" placeholder="Enter your last name" id="lastName" />
-            <br><br>
-            <div class="gender">
-              <input type="radio" id="male" name="gender" value="male"> Male
-              <input type="radio" id="female" name="gender" value="female"> Female
-            </div>
-            <br><br>
-            <input type="email" placeholder="Enter your email" id="email" />
-            <input type="text" placeholder="Address" id="address" />
-            <input type="text" placeholder="House number" id="houseNumber" />
-            <select id="country">
-              <option disabled selected value> -- select a country -- </option>
-              <option value="Narnia">Narnia</option>
-              <option value="Neverland">Neverland</option>
-              <option value="Vulcan">Vulcan</option>
-            </select>
-            <br><br>
-            <div>
-              <input type="checkbox" id="newsletter" />Send me monthly newsletter
-            </div>
-            <br><br>
-            <span>What is your question?</span>
-            <br>
-            <textarea id="question" rows="4"></textarea>
-            <br><br>
-            <button onclick="sendContact();">Send contact</button>
-          </form>
-        </div>
-    </div>
-    <div class="flexbox-sm">
-      <li class="socialmedia">
-        <h3>Follow us on social media:</h3>
-        <ul>
-          <a href="https://twitter.com/">
-            <img src="images/SocialMedia/twitter.png" alt="Twitter">
-          </a>
-          <a href="https://facebook.com/">
-            <img src="images/SocialMedia/facebook.png" alt="Facebook">
-          </a>
-          <a href="https://instagram.com/">  
-            <img src="images/SocialMedia/instagram.png" alt="Instagram">
-          </a>
-          <a href="https://youtube.com/">  
-            <img src="images/SocialMedia/youtube.png" alt="Youtube">
-          </a>
-          <a href="location">  
-            <img src="images/SocialMedia/location.png" alt="Location">
-          </a>
-        </ul>
-      </li>
-    </div>
-    <div class="contact">
-      <ul>
-        <div>
-          <li>E-mail: CSM@SCIENCE.COM</li>
-          <li>Phone: +47 123 45 678</li>
-        </div>
-        <p>© 2021 Community Science Museum. All Rights Reserved.</p>
-      </ul>
-    </div>
-    </div>
     <script>
-      document.write(
-        '<script src="http://' +
-          (location.host || "localhost").split(":")[0] +
-          ':35729/livereload.js?snipver=1"></' +
-          "script>"
-      );
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2720740, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
     </script>
+    <title>Contact us</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <form id="contactForm">
+        <div>
+          <input name="firstName" id="name" placeholder="Name" />
+        </div>
+
+        <div>
+          <input name="email" id="email" placeholder="Email" />
+        </div>
+        <button>Submit</button>
+      </form>
+    </main>
     <script src="/js/script.js" type="module"></script>
   </body>
 </html>

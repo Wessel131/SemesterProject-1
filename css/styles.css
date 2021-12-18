@@ -526,3 +526,7 @@ I've created a box, width and height, so that the window does resize, but it's n
     width: 225px;
   }
 }
+
+.container {
+  display: flex;
+}
